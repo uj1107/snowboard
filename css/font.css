@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Merriweather+Sans:wght@300;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Merriweather+Sans:wght@300;500&display=swap");
+
+html {
+  font-size: 18px;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+header {
+  font-size: 0.7rem;
+  color: white;
+}
+
+footer {
+  font-size: 0.7rem;
+  color: white;
+  font-weight: 300;
+}
+
+footer > .top_foot > .newsletter > form > button {
+  font-weight: bold;
+}
+
+#home_main h1 {
+  font-weight: 800;
+}
+
+#home_main > .slider_wrap > i {
+  font-size: 2.8rem;
+}
+
+#home_main .slick-arrow {
+  font-size: 10rem;
+}
+
+#home_main > .brand {
+  color: white;
+  font-family: "Assistant", sans-serif;
+}
+
+#home_main > .brand > h1 {
+  font-size: 2.3rem;
+}
+
+#home_main > .brand > p {
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+}
+
+#home_main > .feature > i {
+  font-size: 2.8rem;
+}
+
+#home_main > .feature > ul > li {
+  font-size: 0.7rem;
+}
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 17px;
+  }
+
+  #home_main .slick-arrow {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 12px;
+  }
+
+  #ham_menu {
+    color: black;
+    font-size: 1.5rem;
+  }
+}
